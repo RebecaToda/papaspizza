@@ -6,6 +6,10 @@ const SectionRegistro = styled.section`
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 2% 2%;
+
+  a {
+    all: unset;
+  }
 `;
 
 const Cards = styled.div`
