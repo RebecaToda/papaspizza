@@ -8,15 +8,20 @@ interface Props {
 const Registro = styled.section`
   background-color: white;
   padding: 30px 0 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10%;
 
   img {
-    width: 50%;
+    width: 40%;
+    height: 40%;
   }
 `;
 
 const Campos = styled.div`
   background-color: white;
-  padding-left: 5%;
+
   width: fit-content;
 `;
 
@@ -45,7 +50,7 @@ const InputDiv = styled.div`
 const NomeCampo = styled.p`
   font-family: "Inter", sans-serif;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   color: black;
 `;
 

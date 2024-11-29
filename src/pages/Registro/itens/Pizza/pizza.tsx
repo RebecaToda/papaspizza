@@ -28,11 +28,11 @@ export const Pizza = () => {
           <Precos>
             <InputDiv>
               <NomeCampo>Preço 4 pedaços</NomeCampo>
-              <InputNormal />
+              <InputNormal placeholder="R$" />
             </InputDiv>
             <InputDiv>
               <NomeCampo>Preço 8 pedaços</NomeCampo>
-              <InputNormal />
+              <InputNormal placeholder="R$" />
             </InputDiv>
           </Precos>
           <InputDiv>
@@ -40,6 +40,7 @@ export const Pizza = () => {
             <InputNormal height="170px" />
           </InputDiv>
         </Campos>
+        <img src="../../../../../public/pizza.png" alt="pizza" />
       </Registro>
       <Footer />
     </div>
