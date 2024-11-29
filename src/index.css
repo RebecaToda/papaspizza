@@ -9,5 +9,9 @@ header {
 }
 
 body {
-  background-color: rgb(36, 36, 74);
+  background-color: white;
+}
+
+a {
+  all: unset;
 }

@@ -25,10 +25,10 @@ const Header = () => {
               <Link href="/registro">Registro</Link>
             </li>
             <li>
-              <Link href="/">Pedidos</Link>
+              <Link href="/pedidos">Pedidos</Link>
             </li>
             <li>
-              <Link href="/">Relatório</Link>
+              <Link href="/relatorios">Relatórios</Link>
             </li>
           </Links>
         </section>

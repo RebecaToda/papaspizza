@@ -4,11 +4,11 @@ const ButtonStyled = styled.button`
   background: #000000;
   border-radius: 10px;
   width: 180px;
-  height: 60px;
+  height: 80px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 22px;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -5,14 +5,14 @@ const { ButtonStyled } = Components;
 
 interface Props {
   children: string;
-  to: string; // Propriedade para a rota para onde o botão deve redirecionar
+  to: string;
 }
 
 const Button = ({ children, to }: Props) => {
-  const navigate = useNavigate(); // Usando o hook de navegação
+  const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate(to); // Redireciona para a rota indicada
+    navigate(to);
   };
 
   return (
